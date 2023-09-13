@@ -1,14 +1,12 @@
 * {
-  background-color: tomato;
+  background-color: #3366ff;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
   text-align: center;
   font-size: 5em;
-  margin-bottom: 5%;
 }
-
 
 h2 {
   text-align: center;
@@ -16,15 +14,12 @@ h2 {
   margin-top: 8%;
 }
 
-
 p {
   text-align: center;
   font-size: 2em;
   margin: 8%;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-
 
 ul,
 ol {
@@ -34,10 +29,10 @@ ol {
 }
 
 li {
+  display: inline-block;
   font-size: 2.5em;
-  margin: 3%;
+  margin: 5% 1%;
 }
-
 
 a {
   color: black;
@@ -50,4 +45,45 @@ img {
   width: 800px;
   height: 400px;
   margin-bottom: 5%;
+}
+
+img.dish-img {
+  display: inline-block;
+  margin-left: 6em;
+}
+
+img.dish-img.burger {
+  width: 40%;
+  height: 40%;
+}
+
+img.dish-img.steak,
+img.dish-img.coleslaw {
+  width: 500px;
+  height: 400px;
+}
+
+p.dish-description {
+  display: inline-block;
+  width: 40%;
+  height: 40%;
+  margin: 0;
+  text-align: start;
+  vertical-align: top;
+  margin-left: 2em;
+}
+
+p.dish-description.burger,
+p.dish-description.coleslaw {
+  font-size: 36px;
+}
+
+p.dish-description.steak {
+  font-size: 40px;
+}
+
+.main-link {
+  padding: 20px;
+  background-color: lightskyblue;
+  border-radius: 20px;
 }
